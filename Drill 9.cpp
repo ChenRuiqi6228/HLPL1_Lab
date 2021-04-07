@@ -46,7 +46,11 @@ void add_day(Date& dd,int n)
 //increase dd by n days
 }
 
+ostream& operator<<(ostream& out, const Date& dd)
+{
+	return out << dd.day << '-' << dd.month << '-' << dd.year;
 
+}
 
 int main()
 {
