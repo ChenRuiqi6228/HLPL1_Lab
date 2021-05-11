@@ -1,5 +1,4 @@
-  
-#include "std_lib_facilities.h"
+  #include "std_lib_facilities.h"
 
 void print_array(ostream& os, int* a, int x)
 {
